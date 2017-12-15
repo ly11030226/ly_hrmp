@@ -8,7 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/leakcanary-android/leakcanary-android.iml" filepath="$PROJECT_DIR$/leakcanary-android/leakcanary-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/leakcanary-android-no-op/leakcanary-android-no-op.iml" filepath="$PROJECT_DIR$/leakcanary-android-no-op/leakcanary-android-no-op.iml" />
       <module fileurl="file://$PROJECT_DIR$/leakcanary-watcher/leakcanary-watcher.iml" filepath="$PROJECT_DIR$/leakcanary-watcher/leakcanary-watcher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ly-hrmp.iml" filepath="$PROJECT_DIR$/ly-hrmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly_hrmp.iml" filepath="$PROJECT_DIR$/ly_hrmp.iml" />
     </modules>
   </component>
 </project>
