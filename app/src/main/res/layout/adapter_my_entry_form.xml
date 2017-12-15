@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_my_entry_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="8dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/tv_my_entry_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/dialog_normal_title"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/tv_my_entry_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="@color/info_little_title_text_color"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_my_entry"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="@drawable/selector_enroll"
+                android:gravity="center"
+                android:text="@string/do_not_enroll"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/ll_my_entry_main"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/info_line_color"/>
+</RelativeLayout>

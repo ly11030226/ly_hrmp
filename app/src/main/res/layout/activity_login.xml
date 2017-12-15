@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.ly.testfistprogram.ui.LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/pb_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/ll_input_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <Button
+                        android:id="@+id/iv_clear_username"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:background="@mipmap/clear_nor"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:id="@+id/et_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/login_username_hint"
+                        android:maxLength="16"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/edittext_hint_color"
+                        android:textCursorDrawable="@mipmap/time_sms_etittext_cursor"
+                        android:textSize="19sp"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@mipmap/page_edittext_bg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <Button
+                        android:id="@+id/iv_clear_psd"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:background="@mipmap/clear_nor"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:id="@+id/et_psd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/login_psd_hint"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/edittext_hint_color"
+                        android:textCursorDrawable="@mipmap/time_sms_etittext_cursor"
+                        android:textSize="19sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@mipmap/page_edittext_bg" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_show_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_input_area"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="204dip"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ll_input_area"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dip"
+            android:background="@mipmap/anniu"
+            android:gravity="center"
+            android:text="@string/do_login"
+            android:textColor="@color/edittext_gray_color"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

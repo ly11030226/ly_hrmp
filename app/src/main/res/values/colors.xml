@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="blue_main">#29A9ED</color>
+    <color name="gray_main">#F7F4F2</color>
+    <color name="edittext_hint_color">#999999</color>
+    <color name="edittext_hint_color_read">#DDDDDD</color>
+    <color name="edittext_gray_color">#A9A9A9</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="bottom_view_line">#50d6d6d6</color>
+    <color name="enroll_choice">#FFFAFA</color>
+
+
+    <!-- 主界面底部导航栏 -->
+    <color name="bottom_bar_text_nor">#999999</color>
+    <color name="bottom_bar_text_down">#168edb</color>
+
+    <!--titlebar中需要修改的颜色值-->
+    <color name="titlebar_bg">#29A9ED</color><!--titilebar背景颜色-->
+    <color name="alltext_color">#ffffff</color><!--titlebar右边字体颜色-->
+    <color name="middletexte_color">#ffffff</color><!--titlebar中间的字体颜色-->
+
+    <!-- 我 和 消息详情 共用-->
+    <color name="info_main_bg">#F4F4F4</color>
+    <color name="info_little_title_text_color">#aaaaaa</color>
+    <color name="info_line_color">#DBDBDB</color>
+    <color name="info_common_text_color">#3F3F3F</color>
+
+    <color name="dialog_line">#d9d9d9</color>
+    <color name="dialog_normal_title">#3F3F3F</color>
+    <color name="dialog_normal_content">#3f3f3f</color>
+    <color name="dialog_normal_cancle_text">#aaaaaa</color>
+    <color name="dialog_normal_ok_text">#1da1f2</color>
+
+    <color name="st_tv_text">#333333</color>
+    <color name="text_color_gray">#ADADAD</color>
+    <color name="dialog_update_version">#999999</color>
+    <!-- 按钮按下效果 -->
+    <color name="common_button_press">#DD29A9ED</color>
+    <color name="list_bg_press">#EDEDED</color>
+    <color name="dialog_update_version_button">#CCCCCC</color>
+</resources>

@@ -1,0 +1,161 @@
+apply plugin: 'com.android.application'
+//java8 支持
+apply plugin: 'me.tatarka.retrolambda'
+//定义打包时间函数
+def packageTime() {
+    return new Date().format("yyyy-MM-dd-HHmmss", TimeZone.getTimeZone("GMT+8"))
+}
+android {
+    signingConfigs {
+        release {
+            keyAlias project.KS_ALIAS
+            keyPassword project.KS_PASSWORD
+            storeFile file(KS_FILE_PATH)
+            storePassword project.KS_STORE_PASSWORD
+        }
+        debug {
+            keyAlias project.KS_ALIAS
+            keyPassword project.KS_PASSWORD
+            storeFile file(KS_FILE_PATH)
+            storePassword project.KS_STORE_PASSWORD
+        }
+    }
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        ndk {
+            //设置支持的SO库架构
+            abiFilters  'armeabi-v7a', 'x86','arm64-v8a'//'armeabi-v7a', 'x86','armeabi'','x86_64','arm64-v8a'
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    //程序在buid的时候，会执行lint检查，有任何的错误或者警告提示，都会终止构建，我们可以将其关掉
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            //是否启用混淆
+            minifyEnabled true
+            //是否清理无用资源
+            shrinkResources true
+            //是否启用zipAlign压缩
+            zipAlignEnabled true
+            buildConfigField "boolean", "LOG_DEBUG", "false"  //不打印log
+            buildConfigField "boolean", "OPEN_UMENG_DEBUG", "false"  //不开启友盟debug模式
+            signingConfig signingConfigs.release   //签名
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            shrinkResources false
+            zipAlignEnabled false
+            // 如果没有提供混淆规则文件，则设置默认的混淆规则文件（SDK/tools/proguard/proguard-android.txt）
+            pseudoLocalesEnabled true
+            minifyEnabled false
+            buildConfigField "boolean", "LOG_DEBUG", "true"  //打印log
+            buildConfigField "boolean", "OPEN_UMENG_DEBUG", "true"  //开启友盟debug模式
+            signingConfig signingConfigs.debug
+        }
+    }
+    //修改生成的最终文件名
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                File outputDirectory = new File(outputFile.parent);
+                def fileName
+                if (variant.buildType.name == "release") {
+                    // 输出apk名称为hrmp_v1.0.0_2015-06-15-102830_xiaomi.apk
+                    fileName = "hrmp_v${defaultConfig.versionName}_${packageTime()}_${variant.productFlavors[0].name}.apk"
+                } else {
+                    fileName = "hrmp_v${defaultConfig.versionName}_${packageTime()}_beta.apk"
+                }
+                output.outputFile = new File(outputDirectory, fileName)
+            }
+        }
+    }
+    // 友盟多渠道打包
+    productFlavors {
+        _360 {}
+        xiaomi {}
+        tencent {}
+        _release {}
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDir(['libs'])
+        }
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    repositories {
+        flatDir {
+            dirs 'libs' //this way we can find the .aar file in libs folder
+        }
+    }
+}
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':PushSDK')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile rootProject.ext.dependencies["support-v13"]
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["rxjava"]
+    compile rootProject.ext.dependencies["rxandroid"]
+    compile rootProject.ext.dependencies["play-services-appindexing"]
+    compile rootProject.ext.dependencies["crashreport_upgrade"]
+    compile rootProject.ext.dependencies["nativecrashreport"]
+    compile rootProject.ext.dependencies["multidex"]
+    compile rootProject.ext.dependencies["wechat-sdk"]
+    compile rootProject.ext.dependencies["ptr-load-more"]
+    compile rootProject.ext.dependencies["recyclerview-v7"]
+    compile rootProject.ext.dependencies["circular-progress-button"]
+    compile rootProject.ext.dependencies["permissionsdispatcher"]
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:2.4.0"
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //检查内存泄漏
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    //    compile 'com.squareup.okhttp3:okhttp:3+'
+
+    //    compile 'com.squareup.okio:okio:1.7.0'
+    compile 'org.apache.commons:commons-lang3:3.6'
+    compile files('libs/xstream-1.4.7.jar')
+}

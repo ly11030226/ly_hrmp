@@ -1,0 +1,1567 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to D:\SoftWare\ProgramSoftWare\android-sdk-windows\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to D:\SoftWare\ProgramSoftWare\android-sdk-windows\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+useNewCruncher has been deprecated. It will be removed in a future version of the gradle plugin. New cruncher is now always enabled.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:PushSDK:androidDependencies
+debug
++--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.wire:wire-runtime:2.1.2@jar
+|    \--- com.squareup.okio:okio:1.6.0@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\PushSDK\libs\com.umeng.message_v2.8.1L_Beta.jar:unspecified@jar
+
+debugAndroidTest
++--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.wire:wire-runtime:2.1.2@jar
+|    \--- com.squareup.okio:okio:1.6.0@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\PushSDK\libs\com.umeng.message_v2.8.1L_Beta.jar:unspecified@jar
+
+debugUnitTest
++--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.wire:wire-runtime:2.1.2@jar
+|    \--- com.squareup.okio:okio:1.6.0@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\PushSDK\libs\com.umeng.message_v2.8.1L_Beta.jar:unspecified@jar
+
+release
++--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.wire:wire-runtime:2.1.2@jar
+|    \--- com.squareup.okio:okio:1.6.0@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\PushSDK\libs\com.umeng.message_v2.8.1L_Beta.jar:unspecified@jar
+
+releaseUnitTest
++--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.wire:wire-runtime:2.1.2@jar
+|    \--- com.squareup.okio:okio:1.6.0@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\PushSDK\libs\com.umeng.message_v2.8.1L_Beta.jar:unspecified@jar
+:app:androidDependencies
+_360Debug
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android:1.5.1@aar
+|    \--- com.squareup.leakcanary:leakcanary-analyzer:1.5.1@jar
+|         +--- com.squareup.haha:haha:2.0.3@jar
+|         \--- com.squareup.leakcanary:leakcanary-watcher:1.5.1@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+_360DebugAndroidTest
++--- com.android.support:multidex-instrumentation:1.0.1@aar
+|    \--- com.android.support:multidex:1.0.1@aar
+\--- com.android.support.test.espresso:espresso-core:2.2.2@aar
+     +--- com.squareup:javawriter:2.1.1@jar
+     +--- com.android.support.test:rules:0.5@aar
+     |    \--- com.android.support.test:runner:0.5@aar
+     |         +--- junit:junit:4.12@jar
+     |         |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- com.android.support.test:runner:0.5@aar
+     |    +--- junit:junit:4.12@jar
+     |    |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |    \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- javax.inject:javax.inject:1@jar
+     +--- org.hamcrest:hamcrest-library:1.3@jar
+     |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2@aar
+     +--- org.hamcrest:hamcrest-integration:1.3@jar
+     |    \--- org.hamcrest:hamcrest-library:1.3@jar
+     |         \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.google.code.findbugs:jsr305:2.0.1@jar
+     \--- javax.annotation:javax.annotation-api:1.2@jar
+
+_360DebugUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+_360Release
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+_360ReleaseUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+_releaseDebug
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android:1.5.1@aar
+|    \--- com.squareup.leakcanary:leakcanary-analyzer:1.5.1@jar
+|         +--- com.squareup.haha:haha:2.0.3@jar
+|         \--- com.squareup.leakcanary:leakcanary-watcher:1.5.1@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+_releaseDebugAndroidTest
++--- com.android.support:multidex-instrumentation:1.0.1@aar
+|    \--- com.android.support:multidex:1.0.1@aar
+\--- com.android.support.test.espresso:espresso-core:2.2.2@aar
+     +--- com.squareup:javawriter:2.1.1@jar
+     +--- com.android.support.test:rules:0.5@aar
+     |    \--- com.android.support.test:runner:0.5@aar
+     |         +--- junit:junit:4.12@jar
+     |         |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- com.android.support.test:runner:0.5@aar
+     |    +--- junit:junit:4.12@jar
+     |    |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |    \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- javax.inject:javax.inject:1@jar
+     +--- org.hamcrest:hamcrest-library:1.3@jar
+     |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2@aar
+     +--- org.hamcrest:hamcrest-integration:1.3@jar
+     |    \--- org.hamcrest:hamcrest-library:1.3@jar
+     |         \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.google.code.findbugs:jsr305:2.0.1@jar
+     \--- javax.annotation:javax.annotation-api:1.2@jar
+
+_releaseDebugUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+_releaseRelease
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+_releaseReleaseUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+tencentDebug
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android:1.5.1@aar
+|    \--- com.squareup.leakcanary:leakcanary-analyzer:1.5.1@jar
+|         +--- com.squareup.haha:haha:2.0.3@jar
+|         \--- com.squareup.leakcanary:leakcanary-watcher:1.5.1@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+tencentDebugAndroidTest
++--- com.android.support:multidex-instrumentation:1.0.1@aar
+|    \--- com.android.support:multidex:1.0.1@aar
+\--- com.android.support.test.espresso:espresso-core:2.2.2@aar
+     +--- com.squareup:javawriter:2.1.1@jar
+     +--- com.android.support.test:rules:0.5@aar
+     |    \--- com.android.support.test:runner:0.5@aar
+     |         +--- junit:junit:4.12@jar
+     |         |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- com.android.support.test:runner:0.5@aar
+     |    +--- junit:junit:4.12@jar
+     |    |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |    \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- javax.inject:javax.inject:1@jar
+     +--- org.hamcrest:hamcrest-library:1.3@jar
+     |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2@aar
+     +--- org.hamcrest:hamcrest-integration:1.3@jar
+     |    \--- org.hamcrest:hamcrest-library:1.3@jar
+     |         \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.google.code.findbugs:jsr305:2.0.1@jar
+     \--- javax.annotation:javax.annotation-api:1.2@jar
+
+tencentDebugUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+tencentRelease
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+tencentReleaseUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+xiaomiDebug
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android:1.5.1@aar
+|    \--- com.squareup.leakcanary:leakcanary-analyzer:1.5.1@jar
+|         +--- com.squareup.haha:haha:2.0.3@jar
+|         \--- com.squareup.leakcanary:leakcanary-watcher:1.5.1@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+xiaomiDebugAndroidTest
++--- com.android.support:multidex-instrumentation:1.0.1@aar
+|    \--- com.android.support:multidex:1.0.1@aar
+\--- com.android.support.test.espresso:espresso-core:2.2.2@aar
+     +--- com.squareup:javawriter:2.1.1@jar
+     +--- com.android.support.test:rules:0.5@aar
+     |    \--- com.android.support.test:runner:0.5@aar
+     |         +--- junit:junit:4.12@jar
+     |         |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- com.android.support.test:runner:0.5@aar
+     |    +--- junit:junit:4.12@jar
+     |    |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     |    \--- com.android.support.test:exposed-instrumentation-api-publish:0.5@aar
+     +--- javax.inject:javax.inject:1@jar
+     +--- org.hamcrest:hamcrest-library:1.3@jar
+     |    \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2@aar
+     +--- org.hamcrest:hamcrest-integration:1.3@jar
+     |    \--- org.hamcrest:hamcrest-library:1.3@jar
+     |         \--- org.hamcrest:hamcrest-core:1.3@jar
+     +--- com.google.code.findbugs:jsr305:2.0.1@jar
+     \--- javax.annotation:javax.annotation-api:1.2@jar
+
+xiaomiDebugUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+xiaomiRelease
++--- com.android.support:multidex:1.0.1@aar
++--- com.android.support:support-v13:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v4:25.3.1@aar
+|         +--- com.android.support:support-compat:25.3.1@aar
+|         |    \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-media-compat:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-utils:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         +--- com.android.support:support-core-ui:25.3.1@aar
+|         |    +--- com.android.support:support-annotations:25.3.1@jar
+|         |    \--- com.android.support:support-compat:25.3.1@aar
+|         |         \--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-fragment:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-core-utils:25.3.1@aar
+|                   +--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-compat:25.3.1@aar
+|                        \--- com.android.support:support-annotations:25.3.1@jar
++--- com.android.support:appcompat-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-v4:25.3.1@aar
+|    |    +--- com.android.support:support-compat:25.3.1@aar
+|    |    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-media-compat:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-utils:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    +--- com.android.support:support-core-ui:25.3.1@aar
+|    |    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-fragment:25.3.1@aar
+|    |         +--- com.android.support:support-compat:25.3.1@aar
+|    |         |    \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-media-compat:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         +--- com.android.support:support-core-ui:25.3.1@aar
+|    |         |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |         |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         |         \--- com.android.support:support-annotations:25.3.1@jar
+|    |         \--- com.android.support:support-core-utils:25.3.1@aar
+|    |              +--- com.android.support:support-annotations:25.3.1@jar
+|    |              \--- com.android.support:support-compat:25.3.1@aar
+|    |                   \--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-vector-drawable:25.3.1@aar
+|    |    +--- com.android.support:support-annotations:25.3.1@jar
+|    |    \--- com.android.support:support-compat:25.3.1@aar
+|    |         \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:animated-vector-drawable:25.3.1@aar
+|         \--- com.android.support:support-vector-drawable:25.3.1@aar
+|              +--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-compat:25.3.1@aar
+|                   \--- com.android.support:support-annotations:25.3.1@jar
++--- io.reactivex:rxjava:1.0.14@jar
++--- io.reactivex:rxandroid:1.0.1@aar
+|    \--- io.reactivex:rxjava:1.0.14@jar
++--- com.google.android.gms:play-services-appindexing:8.4.0@aar
+|    \--- com.google.android.gms:play-services-base:8.4.0@aar
+|         \--- com.google.android.gms:play-services-basement:8.4.0@aar
+|              \--- com.android.support:support-v4:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-utils:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-fragment:25.3.1@aar
+|                        +--- com.android.support:support-compat:25.3.1@aar
+|                        |    \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-media-compat:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        +--- com.android.support:support-core-ui:25.3.1@aar
+|                        |    +--- com.android.support:support-annotations:25.3.1@jar
+|                        |    \--- com.android.support:support-compat:25.3.1@aar
+|                        |         \--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-core-utils:25.3.1@aar
+|                             +--- com.android.support:support-annotations:25.3.1@jar
+|                             \--- com.android.support:support-compat:25.3.1@aar
+|                                  \--- com.android.support:support-annotations:25.3.1@jar
++--- com.tencent.bugly:crashreport_upgrade:1.3.1@aar
++--- com.tencent.bugly:nativecrashreport:3.3.1@aar
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:1.4.0@jar
++--- in.srain.cube:ptr-load-more:1.0.6@aar
++--- com.android.support:recyclerview-v7:25.3.1@aar
+|    +--- com.android.support:support-annotations:25.3.1@jar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-core-ui:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-compat:25.3.1@aar
+|              \--- com.android.support:support-annotations:25.3.1@jar
++--- com.github.dmytrodanylyk.circular-progress-button:library:1.1.3@aar
++--- com.github.hotchemi:permissionsdispatcher:2.4.0@aar
+|    +--- com.android.support:support-compat:25.3.1@aar
+|    |    \--- com.android.support:support-annotations:25.3.1@jar
+|    \--- com.android.support:support-v13:25.3.1@aar
+|         +--- com.android.support:support-annotations:25.3.1@jar
+|         \--- com.android.support:support-v4:25.3.1@aar
+|              +--- com.android.support:support-compat:25.3.1@aar
+|              |    \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-media-compat:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-utils:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              +--- com.android.support:support-core-ui:25.3.1@aar
+|              |    +--- com.android.support:support-annotations:25.3.1@jar
+|              |    \--- com.android.support:support-compat:25.3.1@aar
+|              |         \--- com.android.support:support-annotations:25.3.1@jar
+|              \--- com.android.support:support-fragment:25.3.1@aar
+|                   +--- com.android.support:support-compat:25.3.1@aar
+|                   |    \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-media-compat:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   +--- com.android.support:support-core-ui:25.3.1@aar
+|                   |    +--- com.android.support:support-annotations:25.3.1@jar
+|                   |    \--- com.android.support:support-compat:25.3.1@aar
+|                   |         \--- com.android.support:support-annotations:25.3.1@jar
+|                   \--- com.android.support:support-core-utils:25.3.1@aar
+|                        +--- com.android.support:support-annotations:25.3.1@jar
+|                        \--- com.android.support:support-compat:25.3.1@aar
+|                             \--- com.android.support:support-annotations:25.3.1@jar
++--- com.umeng.analytics:analytics:6.1.2@jar
++--- org.apache.commons:commons-lang3:3.6@jar
++--- :PushSDK
+|    +--- com.squareup.okio:okio:1.6.0@jar
+|    \--- com.squareup.wire:wire-runtime:2.1.2@jar
+|         \--- com.squareup.okio:okio:1.6.0@jar
++--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
++--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar:unspecified@jar
+\--- __local_jars__:D:\WorkSpace\as\hrmp\app\libs\xstream-1.4.7.jar:unspecified@jar
+
+xiaomiReleaseUnitTest
++--- junit:junit:4.12@jar
+|    \--- org.hamcrest:hamcrest-core:1.3@jar
+\--- com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar
+
+BUILD SUCCESSFUL
+
+Total time: 3.337 secs

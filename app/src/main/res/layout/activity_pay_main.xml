@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_main">
+
+    <com.hrmp.view.Titlebar
+        android:id="@+id/pay_main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.hrmp.view.Titlebar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pay_main_title_bar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_order_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/weixin_pay_order_desc"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_pay_main_order_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="16dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/weixin_pay_order_money"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_pay_main_order_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_order_msg"
+            android:paddingBottom="12dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="12dp"
+            android:text="@string/weixin_pay_choice_pay"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <ImageView
+                android:id="@+id/iv_wei_xin_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@mipmap/wx_pay_logo"/>
+
+            <ImageView
+                android:id="@+id/iv_wei_xin_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@mipmap/pay_style_select"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toLeftOf="@+id/iv_wei_xin_select"
+                android:layout_toRightOf="@+id/iv_wei_xin_logo"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weixin_pay_repay"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/weixin_pay_repay_desc"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="13sp"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_do_pay"
+        style="@style/style_common_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:text="@string/weixin_pay_do_repay"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

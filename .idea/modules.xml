@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary-analyzer/leakcanary-analyzer.iml" filepath="$PROJECT_DIR$/leakcanary-analyzer/leakcanary-analyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary-android/leakcanary-android.iml" filepath="$PROJECT_DIR$/leakcanary-android/leakcanary-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary-android-no-op/leakcanary-android-no-op.iml" filepath="$PROJECT_DIR$/leakcanary-android-no-op/leakcanary-android-no-op.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary-watcher/leakcanary-watcher.iml" filepath="$PROJECT_DIR$/leakcanary-watcher/leakcanary-watcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-hrmp.iml" filepath="$PROJECT_DIR$/ly-hrmp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dip"
+              android:layout_marginRight="10dip"
+              android:background="@drawable/rect_conner"
+              android:orientation="vertical"
+              android:padding="1dip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_entry_form_price"
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_entry_form_unit"
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_entry_form_num"
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:background="@drawable/inputbox"
+                android:digits="@string/my_entry_form_limit"
+                android:enabled="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="5"
+                android:text=""
+                android:textColor="@color/st_tv_text"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_entry_form_sum"
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_entry_form_rmb"
+                android:textColor="@color/info_common_text_color"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/dialog_line"></View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_dialog_one_button_ok"
+            style="@style/dialog_normal_ok_text"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/selector_dialog_normal_ok"
+            android:gravity="center"
+            android:text="@string/my_entry_form_pay_again"></Button>
+    </LinearLayout>
+
+</LinearLayout>

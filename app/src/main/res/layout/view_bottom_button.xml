@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="53dp"
+              android:background="@color/white"
+              android:orientation="horizontal"
+              android:weightSum="3">
+    <!-- 报名 -->
+    <RelativeLayout
+        android:id="@+id/rl_enroll"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/ctv_enroll"
+                android:layout_width="25dip"
+                android:layout_height="24dip"
+                android:background="@drawable/main_bar_work"></CheckedTextView>
+
+            <TextView
+
+                android:id="@+id/tv_enrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="4dip"
+                android:text="@string/bottom_bar_enroll"
+                android:textColor="@color/bottom_bar_text_nor"
+                android:textSize="11sp"></TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!-- 消息 -->
+    <RelativeLayout
+        android:id="@+id/rl_message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/ctv_message"
+                android:layout_width="25dip"
+                android:layout_height="24dip"
+                android:background="@drawable/main_bar_chat"></CheckedTextView>
+
+            <TextView
+
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="4dip"
+                android:text="@string/bottom_bar_message"
+                android:textColor="@color/bottom_bar_text_nor"
+                android:textSize="11sp"></TextView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/unread_message"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="12"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <!-- 我 -->
+    <RelativeLayout
+        android:id="@+id/rl_info"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/ctv_info"
+                android:layout_width="25dip"
+                android:layout_height="24dip"
+                android:background="@drawable/main_bar_more"></CheckedTextView>
+
+            <TextView
+
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="4dip"
+                android:text="@string/bottom_bar_info"
+                android:textColor="@color/bottom_bar_text_nor"
+                android:textSize="11sp"></TextView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.hrmp.view.Titlebar
+        android:id="@+id/modify_psd_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.hrmp.view.Titlebar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="23dip"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_oldpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:background="@drawable/inputbox"
+                    android:gravity="center_vertical"
+                    android:hint="@string/modify_password_old"
+                    android:inputType="textPassword"
+                    android:paddingLeft="13dip"
+                    android:textColor="@color/st_tv_text"
+                    android:textColorHint="@color/text_color_gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="30dip"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_newpassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:background="@drawable/inputbox"
+                    android:gravity="center_vertical"
+                    android:hint="@string/modify_password_new"
+                    android:inputType="textPassword"
+                    android:paddingLeft="13dip"
+                    android:textColor="@color/st_tv_text"
+                    android:textColorHint="@color/text_color_gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/forgetPsw_pswRulesTips"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_comfir_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:background="@drawable/inputbox"
+                    android:gravity="center_vertical"
+                    android:hint="@string/modify_password_comfirm"
+                    android:inputType="textPassword"
+                    android:paddingLeft="13dip"
+                    android:textColor="@color/st_tv_text"
+                    android:textColorHint="@color/text_color_gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_modify_psd_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/rl_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp">
+
+                <Button
+                    android:id="@+id/btn_enroll"
+                    android:layout_width="150dip"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/selector_enroll"
+                    android:gravity="center"
+                    android:text="@string/modify_passwrod_ok"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
